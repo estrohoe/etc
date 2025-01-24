@@ -1,0 +1,87 @@
+/* ==UserStyle==
+@name           The 4chan of Andy and Leyley
+@namespace      https://userstyles.world/style/19741/the-4chan-of-andy-and-leyley
+@version        0.0.6
+@description    The Coffin of Andy and Leyley inspired theme for 4chan.
+@author         peachy
+==/UserStyle== */
+
+@-moz-document domain("4chan.org"), domain("4channel.org") {
+    
+    @import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+    
+    body{
+        background:url("https://files.catbox.moe/xds53g.png") #000;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    body,
+    .boardTitle{
+        font-family:"Faustina",serif!important;
+        font-weight:normal!important;
+    }
+    
+    .boardTitle{
+        letter-spacing:5px!important;
+    }
+    
+    body,
+    a,
+    a:hover,
+    a:visited,
+    a.quotelink,
+    a.quotelink:hover,
+    .mobileib label,
+    .mobilePostFormToggle,
+    .mobilePostFormToggle:hover,
+    .sideArrows{
+        color:#ff1200!important;
+    }
+    
+    a:hover,
+    a.quotelink:hover{
+        text-shadow:#ff1200 0px 0px 10px;
+    }
+    
+    .name,
+    .quote{
+        color:#86d37a!important;
+    }
+    
+    .subject{
+        color:#ec83c3!important;
+    }
+    
+    .thread div,
+    #quote-preview,
+    .postInfoM,
+    .mobile,
+    .reply:target,
+    .reply.highlight,
+    .mobileib,
+    .mobilePostFormToggle,
+    .extPanel{
+        background:rgba(0, 0, 0, 0.5)!important;
+        border:0!important;
+    }
+    
+    .reply.highlight,
+    #quote-preview{
+        box-shadow:0px 0px 10px #ff1200;
+    }
+    
+    #quote-preview{
+        backdrop-filter:blur(5px);
+    }
+    
+    hr,
+    #footer-links,
+    .adl,
+    a[href="https://www.4chan.org/advertise"],
+    #disable-mobile,
+    .absBotDisclaimer{
+        display:none;
+    }
+    
+}
