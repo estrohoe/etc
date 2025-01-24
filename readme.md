@@ -1,5 +1,7 @@
 # etc
 
+[Codeberg](https://codeberg.org/peachy/etc) / [Github](https://github.com/estrohoe/etc)
+
 random stuff that doesn't need its own repo:
 
 - [Bluebird](https://userstyles.world/style/18514/bluebird) - reverts X branding on Twitter
